@@ -1,5 +1,9 @@
 Ref : https://preview.colorlib.com/theme/pato/
 
+---
+## Help
+- Commit Message : https://reflectoring.io/meaningful-commit-messages/ 
+
 
 ---
 # React + Vite
