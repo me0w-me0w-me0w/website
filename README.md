@@ -1,8 +1,30 @@
+## Setup
+
+0. First Time
+```sh
+git clone <repo>
+yarn 
+yarn dev
+```
+
+1. Maintain
+```
+yarn 
+git pull origin master
+yarn dev
+```
+
+
 Ref : https://preview.colorlib.com/theme/pato/
+
+
+---
+
 
 ---
 ## Help
 - Commit Message : https://reflectoring.io/meaningful-commit-messages/ 
+- Git Client : https://github.com/frontaid/git-cli-tools
 
 
 ---
