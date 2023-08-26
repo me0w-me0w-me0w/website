@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <div>
+      <div style={{ opacity: 0 }}>
         <div>
           <div>
             <h4>Contact Us</h4>

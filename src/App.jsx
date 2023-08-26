@@ -5,14 +5,16 @@ import "./App.css";
 import Footer from "./deepak/Footer";
 import Navbar from "./piyush/Navbar";
 import Home from "./Components/Home";
+import Reservation from "./deepak/Pages/Reservation";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div>
-    <Navbar/>
+      <Navbar />
       {/* <Home /> */}
+      <Reservation />
       <Footer />
     </div>
   );
