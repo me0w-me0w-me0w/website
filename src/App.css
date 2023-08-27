@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
+.f1{
+  font-family: "ADLaM Display";
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -40,3 +46,17 @@
 .read-the-docs {
   color: #888;
 }
+
+
+ /* H O M E */
+
+/* Discover */
+.home_discover{
+  background:  linear-gradient(rgba(13,21,14,0.5),rgba(34,54,12,0.4)), url("https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80") ; 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
