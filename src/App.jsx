@@ -5,7 +5,7 @@ import Navbar from "./piyush/Navbar";
 import Discover from "./piyush/home_discover";
 import About from "./pages/About";
 import Blogs from "./pages/Blogs";
-import Careers from "./pages/Careers";
+import Menu from "./pages/Menu";
 import History from "./pages/History";
 import Projects from "./pages/Projects";
 import Services from "./pages/Services";
@@ -20,7 +20,7 @@ export default function App() {
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/blogs" element={<Blogs />} />
-          <Route path="/careers" element={<Careers />} />
+          <Route path="/menu" element={<Menu />} />
           <Route path="/history" element={<History />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/services" element={<Services />} />

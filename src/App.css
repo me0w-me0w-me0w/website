@@ -60,3 +60,14 @@
 }
 
 
+
+/* --- COMP --- */
+.Hero{
+  border-radius: 30px;
+  background-image:  linear-gradient(rgba(1,1,10,.2),rgba(1,1,10,.2)), url("https://images.unsplash.com/photo-1577106263724-2c8e03bfe9cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+/*  background-color: linear-gradient(#425372,#527392);*/
+   background-repeat: no-repeat;
+  background-size:cover;
+  background-position: bottom;
+  object-fit: cover;
+}
