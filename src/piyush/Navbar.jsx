@@ -32,9 +32,9 @@ export default function Navbar() {
                 <li>
                   <Link
                     className="text-gray-500 transition hover:text-gray-500/75"
-                    to="/careers"
+                    to="/menu"
                   >
-                    Careers
+                    Menu
                   </Link>
                 </li>
                 <li>
