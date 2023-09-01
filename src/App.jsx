@@ -2,11 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Footer from "./deepak/Footer";
 import Navbar from "./piyush/Navbar";
-import Home from "./Components/Home";
-import Reservation from "./deepak/Pages/Reservation";
 
-function App() {
-  const [count, setCount] = useState(0);
+import Reservation from "./deepak/Pages/Reservation";
 
 import Discover from "./piyush/home_discover";
 import About from "./pages/About";
@@ -17,7 +14,6 @@ import Projects from "./pages/Projects";
 import Services from "./pages/Services";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-
 
 export default function App() {
   return (
@@ -36,6 +32,7 @@ export default function App() {
         </Routes>
         {/* <Home /> */}
         <Discover />
+        <Reservation />
         <Footer />
       </Router>
     </div>
